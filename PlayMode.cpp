@@ -175,7 +175,7 @@ void PlayMode::draw(glm::uvec2 const &drawable_size) {
 				);
 			}
 
-			draw_text(player.position + glm::vec2(0.0f, -0.1f + Game::PlayerRadius), player.name, 0.09f);
+			// draw_text(player.position + glm::vec2(0.0f, -0.1f + Game::PlayerRadius), player.name, 0.09f);
 		}
 	}
 	GL_ERRORS();
